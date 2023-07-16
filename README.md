@@ -1,6 +1,6 @@
 # Landing-page-Plants
 [link of the site]
-
+![site view](/site_gif.gif)
 It was my first landing page I worked at. :grin:
 This landing was created to master work with:
 - header and footer
