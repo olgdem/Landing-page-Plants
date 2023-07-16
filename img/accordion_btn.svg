@@ -1,0 +1,32 @@
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="16" height="17" fill="#F5F5F5"/>
+<g id="desktop 1440px" clip-path="url(#clip0_0_1)">
+<g id="prices">
+<rect width="1440" height="560" transform="translate(-344 -282)" fill="white"/>
+<g id="prices wrapper">
+<g id="Prices">
+<g id="prices_item">
+<g id="Prices items">
+<g id="price item ">
+<rect id="Rectangle 7" x="-194" y="-16.9912" width="250" height="50.0019" rx="20" fill="#EDF2EC"/>
+<g id="accordion_btn">
+<circle id="Ellipse 5" cx="8" cy="8.00928" r="8" fill="#D9D9D9"/>
+<g id="arrow">
+<path id="Vector 3" d="M8.00003 9.00949L6.00002 7.0096" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+<path id="Vector 4" d="M8 9.00952L10 7.00952" stroke="#717171" stroke-width="0.5" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</g>
+<rect id="Rectangle 5" x="-234.5" y="-132.496" width="331" height="281.011" rx="19.5" stroke="#E3E1D5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="3870" fill="white" transform="translate(-344 -2912)"/>
+</clipPath>
+</defs>
+</svg>
