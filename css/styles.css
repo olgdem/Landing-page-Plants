@@ -153,7 +153,8 @@ h1 {
     transition: all 0.5s ease;
     display: flex;
     align-items: center;
-    text-align: center;     
+    text-align: center;
+    cursor: pointer;     
 }
     
 .section-1_button:hover {
@@ -313,6 +314,12 @@ h1 {
     height: 50px;
     border: 1px solid #E06733;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #E06733;
+    color: #FFFFFF;
 }
 
 .blur {
@@ -485,6 +492,12 @@ hr {
     background-color: #FFFFFF;
     align-self: flex-end;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.section-4_button:hover {
+    background-color: #E06733;
+    color: #FFFFFF;
 }
 
 .section-4_img {
