@@ -767,7 +767,7 @@ hr {
 }
 
 .container{
-    width: 1280px;
+    max-width: 1280px;
     padding: 30px 50px;
     margin: 0;
 }
@@ -811,7 +811,7 @@ h1, .section-1__span-h1 {
 .contact_women {
     width: 362px;
     height: 400px;
-    margin-top: 120px;
+    
 }
 
 .section-5 h2 {
@@ -841,7 +841,7 @@ h1, .section-1__span-h1 {
 }
     
 .container{
-    width: 768px;
+    max-width: 768px;
     padding: 0 40px;
     margin: 0;
 }
@@ -926,7 +926,7 @@ h1 {
     display: flex;
     flex-direction: column;
     padding-top: 40px;
-    padding-bottom: 70px;
+    padding-bottom: 0;
 } 
     
 .section-3_h2 {
@@ -949,11 +949,12 @@ h1 {
    
 .figure{
     width: 280px;
-    margin: 0 20px;
+    margin: 20px 20px;
 }
 
 .wrapper-pictures {
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .wrapper_section-4 {
@@ -1045,11 +1046,11 @@ h1 {
 .section-4, 
 .section-5, 
 .footer {
-    min-width: 540px;
+    min-width: 520px;
 } 
 
 .container{
-    width: 540px; 
+    max-width: 520px; 
     padding: 20px 50px; 
     margin: 0;
 }
@@ -1191,15 +1192,18 @@ h1 {
 .section-4, 
 .section-5, 
 .footer {
-    min-width: 450px;
+    min-width: 100%;
 } 
 
 .container{
-    width: 450px; 
-    padding: 0 25px; 
+    max-width: 414px; 
+    padding: 20px 25px; 
     margin: 0;
 }
 
+.header-link {
+    font-size: 23px;
+}
 
 .section-2_text, 
 .section-2_p, 
@@ -1373,6 +1377,7 @@ hr {
 .contact_women {
     width: 330px;
     height: 390px;
+    margin-bottom: -19px;
 }
 
 }
@@ -1390,7 +1395,7 @@ hr {
 } 
     
 .container{
-    width: 400px; 
+    width: 390px; 
     padding: 20px 25px; 
     margin: 0;
 }
@@ -1492,6 +1497,71 @@ h1, .section-1__span-h1 {
     margin-top: 0px;
     width: 296px;
     height: 354px;
+    margin-bottom: 0px;
 }
 
+}
+
+@media screen and (max-width: 320px) {
+
+    .header, .section-1, .section-2, .section-3, .section-4, .section-5, .footer {
+        min-width: 100%;
+    }
+    
+    .container{
+        max-width: 320px; 
+        padding: 30px 20px; 
+        margin: 0;
+    }
+    
+    .header-block {
+        padding-bottom: 0;
+    }
+
+    .section-1_text {
+        width: 280px;
+    }
+    
+    .section-1__text-and-button-block {
+        width: 282px;
+    }
+
+    .header__burger-menu {
+        margin-left: 184px;
+    }
+
+    .header-link {
+        font-size: 27px;
+    }
+
+    .section-2_text, .section-2_p, .section-2_h2 {
+        width: 265px;
+    }
+
+    .section-4__content {
+        width: 276px;}
+
+    #dropdown {
+        width: 281px;
+    }
+
+    .section-5__city-dropdown, .section-5__adresses_container {
+        width: 285px;
+    }
+
+    .section-5__dropdown-panel {
+        margin-top: 90px;
+    }
+
+    .contact_women {
+        margin-bottom: -29px;
+    }
+
+    .section-5__content {
+        min-height: 775px;
+    }
+
+    .section-5__content h2 {
+        width: 300px;
+    }
 }
