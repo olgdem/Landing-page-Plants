@@ -19,5 +19,5 @@ This landing was created to master work with:
 - accordion on Java Script
 - dropdown list on Java Script
 - select and change blocks on Java Script
-- responsive design
+- adaptive design
 - hover effects
