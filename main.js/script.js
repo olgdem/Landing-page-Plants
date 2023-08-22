@@ -33,11 +33,11 @@ const elements2 = document.querySelectorAll('.lawn');
 const elements3 = document.querySelectorAll('.plants');
 
 function filterElements1() {
-  const elements1 = document.querySelectorAll('.garden');
-  const elements2 = document.querySelectorAll('.lawn');
-  const elements3 = document.querySelectorAll('.plants');
+
+const elements1 = document.querySelectorAll('.garden');
+const elements2 = document.querySelectorAll('.lawn');
+const elements3 = document.querySelectorAll('.plants');
   
-    
     elements1.forEach(element => {
         if (element.classList.contains('garden')) {
           element.classList.remove('blur');
@@ -57,9 +57,10 @@ function filterElements1() {
     }
     
     function filterElements2() {
-const elements1 = document.querySelectorAll('.garden');
-const elements2 = document.querySelectorAll('.lawn');
-const elements3 = document.querySelectorAll('.plants');
+
+  const elements1 = document.querySelectorAll('.garden');
+  const elements2 = document.querySelectorAll('.lawn');
+  const elements3 = document.querySelectorAll('.plants');
 
       elements2.forEach(element => {
         if (element.classList.contains('lawn')) {
@@ -82,11 +83,11 @@ const elements3 = document.querySelectorAll('.plants');
   
 
   function filterElements3() {
-    const elements1 = document.querySelectorAll('.garden');
-const elements2 = document.querySelectorAll('.lawn');
-const elements3 = document.querySelectorAll('.plants');
 
-    
+    const elements1 = document.querySelectorAll('.garden');
+    const elements2 = document.querySelectorAll('.lawn');
+    const elements3 = document.querySelectorAll('.plants');
+
       elements3.forEach(element => {
         if (element.classList.contains('plants')) {
           element.classList.remove('blur');
@@ -118,15 +119,13 @@ function toggleDropdown() {
      const dropdownVisible = dropdownList.style.display !== "none";
      dropdownList.style.display = dropdownVisible ? "none" : "block";
   
-    
-  
      // check if the list was already open
      if (dropdownVisible) {
   // display none info blocks when re-opening the dropdown list 
-       var canandaiguaInfo = document.getElementById("canandaiguaInfo");
-       var newYorkCityInfo = document.getElementById("newYorkCityInfo");
-       var yonkersInfo = document.getElementById("yonkersInfo");
-       var sherrillInfo = document.getElementById("sherrillInfo");
+       const canandaiguaInfo = document.getElementById("canandaiguaInfo");
+       const newYorkCityInfo = document.getElementById("newYorkCityInfo");
+       const yonkersInfo = document.getElementById("yonkersInfo");
+       const sherrillInfo = document.getElementById("sherrillInfo");
   
        canandaiguaInfo.style.display = "none";
        newYorkCityInfo.style.display = "none";
@@ -135,11 +134,10 @@ function toggleDropdown() {
   
      } else {
       
-  
-       var canandaiguaInfo = document.getElementById("canandaiguaInfo");
-       var newYorkCityInfo = document.getElementById("newYorkCityInfo");
-       var yonkersInfo = document.getElementById("yonkersInfo");
-       var sherrillInfo = document.getElementById("sherrillInfo");
+       const canandaiguaInfo = document.getElementById("canandaiguaInfo");
+       const newYorkCityInfo = document.getElementById("newYorkCityInfo");
+       const yonkersInfo = document.getElementById("yonkersInfo");
+       const sherrillInfo = document.getElementById("sherrillInfo");
   
        canandaiguaInfo.style.display = "none";
        newYorkCityInfo.style.display = "none";
@@ -165,15 +163,15 @@ function toggleDropdown() {
     
     function selectCity(city) {
   
-         let selectedCityName = document.getElementById("selected-name");
+      let selectedCityName = document.getElementById("selected-name");
      
       let currentText = document.querySelector('.section-5__city-name');
           currentText.textContent = selectedCityName.textContent = city;
 
-      var canandaiguaInfo = document.getElementById("canandaiguaInfo");
-      var newYorkCityInfo = document.getElementById("newYorkCityInfo");
-      var yonkersInfo = document.getElementById("yonkersInfo");
-      var sherrillInfo = document.getElementById("sherrillInfo");
+      const canandaiguaInfo = document.getElementById("canandaiguaInfo");
+      const newYorkCityInfo = document.getElementById("newYorkCityInfo");
+      const yonkersInfo = document.getElementById("yonkersInfo");
+      const sherrillInfo = document.getElementById("sherrillInfo");
     
       canandaiguaInfo.style.display = city === "Canandaigua, NY" ? "block" : "none";
       newYorkCityInfo.style.display = city === "New York City" ? "block" : "none";
