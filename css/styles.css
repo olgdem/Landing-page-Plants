@@ -380,7 +380,7 @@ h1 {
 }
 
 .prices-label:after {
-    content: url(img/accordion_btn.png);
+    content: url(../img/accordion_btn.png);
     position: absolute;
     right: 40px;
 }
@@ -518,7 +518,7 @@ hr {
 }
 
 .prices-input:checked+.prices-label:after {
-    content: url(img/accordion_btn-open.png);
+    content: url(../img/accordion_btn-open.png);
 }
 
 .section-5 {
@@ -549,7 +549,7 @@ hr {
 }
 
 .section-5__city-label:after {
-    content: url(img/accordion_btn_grey_city.png);
+    content: url(../img/accordion_btn_grey_city.png);
     position: absolute;
     right: 35px;
     top: 12px;  
