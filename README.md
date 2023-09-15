@@ -1,6 +1,6 @@
 # Landing-page-Plants
 
-[link of the site]
+## Address of the site: https://olgdem.github.io/Landing-page-Plants/
 
 It was my first landing page I worked at. :grin:
 
